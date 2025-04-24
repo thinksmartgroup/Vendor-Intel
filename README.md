@@ -36,7 +36,7 @@ A sophisticated data collection system designed to gather and analyze vendor inf
 - pip (Python package manager)
 - Google Chrome (for web scraping)
 - Valid API keys for:
-  - Google Gemini API
+  - SERP API
   - Google Search API
 
 ### Installation
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 3. Set up environment variables:
 Create a `.env` file in the root directory with the following:
 ```
-GOOGLE_API_KEY=your_google_api_key
+SERPAPI_KEY=your_google_api_key
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
