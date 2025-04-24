@@ -1,0 +1,12 @@
+google-generativeai>=0.3.0,<0.7.0
+google-search-results
+beautifulsoup4
+tldextract
+requests
+python-dotenv
+gspread
+oauth2client
+pandas
+numpy
+tqdm
+flask
