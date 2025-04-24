@@ -22,15 +22,18 @@ def process_location(location_data, industry):
     location = location_data['location']
     
     try:
-        # Generate queries for this location and industry
+        # Generate search queries for the location
         queries = generate_search_queries(industry, location, 5)
+        if not queries:
+            print(f"No queries generated for {location}")
+            return []
         
-        # Search for vendors
-        urls = search_vendors(queries)
+        # Search for vendors using the generated queries
+        vendors = search_vendors(queries, results_per_query=10)
         
         # Process each vendor
         results = []
-        for url in urls:
+        for url in vendors:
             summary = summarize_vendor_site(url, location)
             if summary:
                 summary['industry'] = industry  # Add industry to the result

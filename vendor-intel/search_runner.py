@@ -3,7 +3,7 @@ import os
 import json
 import time
 
-def search_vendors(queries):
+def search_vendors(queries, results_per_query=10):
     urls = []
     api_key = os.getenv("SERPAPI_KEY")
     
@@ -18,7 +18,7 @@ def search_vendors(queries):
                 "engine": "google",
                 "q": query,
                 "api_key": api_key,
-                "num": 10,  # Get top 10 results
+                "num": results_per_query,  # Use the provided parameter
                 "gl": "us",  # Restrict to US results
                 "hl": "en"   # English language
             }

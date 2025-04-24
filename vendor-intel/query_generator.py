@@ -30,6 +30,7 @@ def generate_search_queries(domain, location, quantity):
             prompt = f"""Generate {quantity} Google search queries to find software vendors in or near {location} that offer billing and management software for the {domain} industry.
             Return each query on a new line.
             Make the queries specific and targeted to find relevant vendors.
+            Do not include numbers or prefixes in the queries.
             Example format:
             chiropractic practice management software vendors in New York
             best chiropractic billing software companies near Los Angeles
@@ -39,7 +40,17 @@ def generate_search_queries(domain, location, quantity):
             response = model.generate_content(prompt)
             if response and response.text:
                 # Clean and validate the response
-                queries = [q.strip() for q in response.text.strip().split("\n") if q.strip()]
+                queries = []
+                for line in response.text.strip().split("\n"):
+                    # Skip empty lines, numbered items, and lines that look like headers
+                    line = line.strip()
+                    if line and not line.startswith(('Here are', '1.', '2.', '3.', '4.', '5.', '6.', '7.', '8.', '9.', '0.')):
+                        # Remove any remaining numbers and dots from the start
+                        while line and (line[0].isdigit() or line[0] == '.'):
+                            line = line[1:].strip()
+                        if line:
+                            queries.append(line)
+                
                 if len(queries) >= quantity:
                     return queries[:quantity]
                 else:

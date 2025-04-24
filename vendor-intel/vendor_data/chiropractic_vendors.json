@@ -1,0 +1,2263 @@
+[
+  {
+    "company_name": "zHealth EHR",
+    "products": [
+      "zHealth Platform"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "800-939-0319",
+      "800-459-0302"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "zHealth provides an all-in-one, web-based commerce platform for wellness providers like chiropractors, physical therapists, and massage therapists to digitize operations, manage scheduling, notes, billing, payments, and enhance patient experience.",
+    "pricing_model": "unknown",
+    "target_customer_size": "small",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040101"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040264"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040278"
+  },
+  {
+    "company_name": "ChiroTouch",
+    "products": [
+      "ChiroTouch Practice Management Software",
+      "CT Engage",
+      "CT InForms",
+      "CT Payments",
+      "CT RevAccel",
+      "CT ProClear",
+      "CT MaxClear",
+      "CT Verify",
+      "ChiroTouch Advanced",
+      "ChiroTouch Core"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "800.852.1771",
+      "844.307.4901"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ChiroTouch provides chiropractic EHR and practice management software designed to manage all aspects of a practice from a single platform, including scheduling, charting, billing, patient engagement, compliance, and reporting. They offer cloud-based solutions for various practice types.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [
+      "Trizetto",
+      "Change Healthcare",
+      "Payment Processing",
+      "Clearinghouses"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040292"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040298"
+  },
+  {
+    "company_name": "zHealthEHR",
+    "products": [
+      "zHealthEHR"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "zHealthEHR is an all-in-one, 100% cloud-based electronic health record (EHR) software designed specifically for chiropractic providers. It features customizable SOAP notes, patient scheduling, integrated billing, online appointments, text reminders, and dictation capabilities.",
+    "pricing_model": "subscription",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Google Calendar"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040300"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040303"
+  },
+  {
+    "company_name": "Chiro Cat LLC",
+    "products": [
+      "ChiroCat Practice Management Software"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ChiroCat offers an all-in-one, cloud-based practice management software specifically designed for chiropractors. It includes features like EHR, intuitive scheduling, HIPAA-compliant two-way messaging, billing, online booking, custom intake forms, automated patient review solicitation, and Text-to-Pay, aiming to streamline practice operations for a single monthly fee.",
+    "pricing_model": "subscription",
+    "target_customer_size": "small",
+    "integration_options": [
+      "Recurring payment processing",
+      "Auto ERA posting",
+      "Clearinghouse tools"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040319"
+  },
+  {
+    "company_name": "Medical Billers and Coders",
+    "products": [
+      "Chiropractic Billing Services",
+      "Medical Billing Services",
+      "Charge Entry",
+      "Payment Posting",
+      "Account Receivable Management",
+      "Denial Management & Appeals",
+      "RCM Services",
+      "Medical Coding Services",
+      "Physician Credentialing",
+      "Physician Group Outsourced Services"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "888-357-3226"
+    ],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Medical Billers and Coders (MBC) provides specialized medical billing and coding services for various practices, including chiropractic, across the USA with a focus on California. They aim to optimize revenue cycles, ensure compliance, reduce claim denials, and manage administrative burdens for healthcare providers by leveraging expertise and integrating with various EMR/billing software.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "EMR Integration",
+      "Medisoft",
+      "Misys Tiger",
+      "eClinicalWorks",
+      "Advance MD",
+      "GE Centricity",
+      "Altapoint"
+    ],
+    "deployment_options": [
+      "Outsourced Service"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040334"
+  },
+  {
+    "company_name": "ClinicMind",
+    "products": [
+      "Enterprise EHR",
+      "Genesis Chiropractic Software",
+      "BulletProof Chiropractic EMR",
+      "CredEdge-Mobile",
+      "Claims 360 \u2013 Full Billing Service",
+      "ClinicMindPay",
+      "Coding Excellence",
+      "Prior Authorization",
+      "PatientHub",
+      "MyClinicMind-Patient Portal",
+      "Virtual Front Desk (VFD)",
+      "TeleHealth",
+      "Training Custom Automated Learning Modules",
+      "FinCEN Compliance"
+    ],
+    "platform_type": "hybrid",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ClinicMind provides a comprehensive platform for practice owners, offering solutions like EHR (both cloud-based and PC-based), RCM, patient experience tools (portals, telehealth, virtual front desk), billing services, credentialing, payment processing, and compliance support, particularly catering to healthcare professionals and chiropractic practices.",
+    "pricing_model": "subscription",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud",
+      "desktop"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040343"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040349"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040352"
+  },
+  {
+    "company_name": "MicroFour, Inc.",
+    "products": [
+      "PracticeStudio",
+      "PracticeStudio Chiropractic EHR"
+    ],
+    "platform_type": "hybrid",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "877-853-0030"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "PracticeStudio by MicroFour, Inc. is a certified Electronic Health Record (EHR) and practice management software solution specifically designed for the Chiropractic industry. It combines EHR functionalities like charting (SOAP notes, touch-screen interface), ePrescribing, lab integration, and patient portal with practice management tools such as appointment scheduling, billing (eClaims, remittance processing), messaging, and reporting. The system supports mobile devices and aims to streamline workflows, improve patient care, ensure compliance (including Meaningful Use Stage 2), and maximize practice profitability for chiropractic practices of all sizes.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Laboratories",
+      "Diagnostic Devices (ECG, ECHO, etc.)",
+      "eClaims",
+      "Insurance Verification",
+      "Remittance Processing",
+      "ePrescribing",
+      "Patient Portal"
+    ],
+    "deployment_options": [
+      "Cloud",
+      "Server"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040355"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040362"
+  },
+  {
+    "company_name": "ClinicSense",
+    "products": [
+      "ClinicSense"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ClinicSense is a cloud-based practice management software designed for chiropractors, helping manage patient appointments, SOAP notes, billing, and communication.",
+    "pricing_model": "subscription",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Square",
+      "Facebook",
+      "Instagram"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040376"
+  },
+  {
+    "company_name": "Spark Chiropractic",
+    "products": [
+      "Chiropractic Care",
+      "Activator Method Chiropractic Technique",
+      "Prenatal Care",
+      "Webster Technique"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [
+      {
+        "name": "Jenny Proenza, DC",
+        "title": "Doctor of Chiropractic",
+        "email": "sparkchiropractic@gmail.com",
+        "phone": "415.648.6481"
+      }
+    ],
+    "company_phone_numbers": [
+      "415.648.6481"
+    ],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Spark Chiropractic specializes in gentle chiropractic care using the Activator Method. Located in Noe Valley, San Francisco, and run by Jenny Proenza, DC, the practice offers services for various conditions including joint pain, flexibility restoration, posture correction, stress management, and prenatal care (Webster Technique-certified). Care is provided for people of all ages.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.040746"
+  },
+  {
+    "company_name": "ChiroSpring",
+    "products": [
+      "ChiroSpring"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "User-friendly and powerful software to expand healthcare practices by boosting patient visits, decreasing staff workload, and maximizing billing profits. Designed to help doctors save time, includes features like online scheduling, online intake, virtual front desk, SOAP notes, billing/ERA reconciliation, advanced reporting, care plans, time clock, and user earnings tracking. Suitable for practices of any size.",
+    "pricing_model": "subscription",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.041354"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.041663"
+  },
+  {
+    "company_name": "ChiroFusion",
+    "products": [
+      "ChiroFusion"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Advanced and reliable chiropractic software for automating administrative work, including patient intake, insurance verification, and payment processing. It is fully web-based with an intuitive interface and offers integrations for billing and patient processing. Provides personal account managers, one-on-one training, and data transfer services.",
+    "pricing_model": "subscription",
+    "target_customer_size": "unknown",
+    "integration_options": [
+      "billing",
+      "patient processing"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.041684"
+  },
+  {
+    "company_name": "CureMD",
+    "products": [
+      "CureMD EHR"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [
+      {
+        "name": "Bilal Hashmat",
+        "title": "CEO",
+        "email": "",
+        "phone": ""
+      }
+    ],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "CureMD is amongst the largest providers of healthcare oriented software based in the US. Founded in 1997 by Bilal Hashmat, he is the current CEO of this firm as well. CureMD currently has around 600-1000 employees in its team, with nearly 25% of its employees dedicated for customer service.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.041968"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.041983"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.041999"
+  },
+  {
+    "company_name": "Practice EHR",
+    "products": [
+      "AI Solutions",
+      "Electronic Health Record",
+      "Practice Management",
+      "Revenue Cycle Management",
+      "Specialty Specific",
+      "Enterprise",
+      "Clearinghouse",
+      "Televisit",
+      "Kiosk",
+      "PracticeEHR GO Mobile EHR"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Practice EHR provides a cloud-based EHR and practice management solution suitable for any medical specialty and practice size. It aims to consolidate practice tasks like check-in, scheduling, billing, and claims into a single, intuitive workflow, enhanced with AI tools and a mobile app (PracticeEHR Go).",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Integrated Practice Management",
+      "Clearinghouse"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042007"
+  },
+  {
+    "company_name": "24/7 Medical Billing Services",
+    "products": [
+      "Chiropractic Billing Services",
+      "Medical Billing Services",
+      "Medical Coding Services",
+      "Credentialing Services",
+      "Denial Management",
+      "Eligibility Verification",
+      "Revenue Cycle Management",
+      "DME Billing",
+      "Pharmacy Billing Services",
+      "Mental Health Billing",
+      "Emergency Room Billing",
+      "ASC Billing Services",
+      "Radiology Billing Services",
+      "Anesthesia Billing Services",
+      "Cardiology Billing Services",
+      "Family Practice Billing Services",
+      "Orthopedic Billing Services",
+      "Oncology Billing Services",
+      "Pathology Billing Services",
+      "Wound Care Billing Services"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "888-502-0537",
+      "888-635-9013"
+    ],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "24/7 Medical Billing Services provides comprehensive outsourced medical billing and coding services, specializing in various fields including chiropractic billing for practices in San Francisco, CA and across the US. They focus on optimizing revenue cycles, reducing claim denials, and ensuring compliance, aiming to enhance collections by up to 20%.",
+    "pricing_model": "unknown",
+    "target_customer_size": "small",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042016"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042024"
+  },
+  {
+    "company_name": "24/7 Medical Billing Services",
+    "products": [
+      "Chiropractic Billing Services",
+      "Medical Billing Services",
+      "Medical Coding Services",
+      "Credentialing Services",
+      "Denial Management",
+      "Eligibility Verification",
+      "Revenue Cycle Management",
+      "DME Billing",
+      "Pharmacy Billing Services",
+      "Mental Health Billing",
+      "Emergency Room Billing",
+      "ASC Billing Services",
+      "Radiology Billing Services",
+      "Practice Management Software",
+      "Electronic Health Record"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "888-502-0537",
+      "888-635-9013"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "24/7 Medical Billing Services provides outsourced medical billing and coding solutions, with a specific focus on Chiropractic Billing Services for practices in California. They aim to increase reimbursements, reduce operational costs, manage Accounts Receivables, and ensure compliance with standards like ICD-10, HIPAA, and LCD guidelines. They offer expertise across multiple medical specialties and various practice management software platforms.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "AdvancedMD",
+      "HealthFusion",
+      "Allscripts PM",
+      "kareo",
+      "Athena collector",
+      "nextgen",
+      "brightree",
+      "medisoft",
+      "chirotouch",
+      "NueMD",
+      "Centricity group management",
+      "practice fusion",
+      "eclinicalworks",
+      "vehicle",
+      "epic"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042036"
+  },
+  {
+    "company_name": "MediBillMD",
+    "products": [
+      "Chiropractic Billing Services",
+      "Denial Management",
+      "Medical Billing",
+      "Medical Billing Audit",
+      "Medical Credentialing",
+      "Old AR Recovery",
+      "Revenue Cycle Management"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "MediBillMD offers specialized chiropractic medical billing services designed to handle coding, claims, payments, denial management, and A/R recovery for chiropractic practices nationwide. They aim to improve collection rates (claiming 96%), increase revenue, and reduce administrative burdens for clinics of all sizes.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042044"
+  },
+  {
+    "company_name": "ChiroTouch",
+    "products": [
+      "ChiroTouch",
+      "ChiroTouch Core",
+      "ChiroTouch Advanced"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ChiroTouch offers an all-in-one chiropractic practice management software platform, including EHR, billing (insurance and cash), compliance, and patient engagement solutions. Key features include patient management dashboards, rapid SOAP notes, integrated clearinghouse for claims management, cloud-based access, online scheduling, and real-time reporting dashboards.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [
+      "Clearinghouses",
+      "CT Payments"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042055"
+  },
+  {
+    "company_name": "ChiroBill",
+    "products": [
+      "Chiropractic Insurance Billing Service",
+      "Electronic Claims Billing",
+      "Patient Account Services",
+      "Collections"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [
+      {
+        "name": "Joanne Queiroz",
+        "title": "Owner",
+        "email": "joanne@chirobill.com",
+        "phone": "925-706-9884"
+      }
+    ],
+    "company_phone_numbers": [
+      "925-756-2462",
+      "925-706-9884"
+    ],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "ChiroBill offers specialized insurance billing, collections, and patient account services tailored for Chiropractors, Physical Therapists, and Speech Therapists, primarily serving California. With over two decades of experience, they focus on maximizing reimbursement through accurate coding, electronic billing, and minimizing claim rejections.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042062"
+  },
+  {
+    "company_name": "EmdeonMD LLC",
+    "products": [
+      "Chiropractic Billing Services",
+      "Medical Billing Services",
+      "Medical Credentialing Services",
+      "Medical Coding Services",
+      "Accounts Receivable Services",
+      "Denial Management Services",
+      "Practice Management Services",
+      "Virtual Assistant Services",
+      "Verification of benefits",
+      "Dental Insurance Verification Services"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "EmdeonMD LLC offers specialized chiropractic billing services focused on optimizing revenue for chiropractic practices. Their services include accurate claims submission, expertise in chiropractic codes (ICD-10, HCPCS), proactive denial management, insurance verification, detailed documentation, and timely follow-ups to maximize reimbursements and ensure regulatory compliance.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042080"
+  },
+  {
+    "company_name": "Right Medical Billing",
+    "products": [
+      "Chiropractic Billing Services",
+      "Insurance Eligibility Verification Services",
+      "Demographics & Charge Entry Services",
+      "Chiropractic Billing & Analysis",
+      "AR Follow up Services",
+      "Chiropractic Services Collection & Denial Analysis",
+      "Payment Posting",
+      "Providers Credentialing Services",
+      "Medical Billing and Coding Services",
+      "Medical Accounts Receivable Services",
+      "Credentialing & Contracting Services",
+      "Out Of Network Negotiation Services",
+      "Prior and Retro Authorization Services",
+      "Comprehensive Chart Auditing / DRG Review",
+      "Patient Billing Services",
+      "Cost Effective IT Equipment and Services"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "832-544-2588"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Right Medical Billing offers specialized Chiropractic medical billing services designed to handle complex coding, ensure timely billing and follow-up, manage accounts receivable, and maximize reimbursement. Their services include eligibility verification, charge entry, billing and analysis, AR follow-up, denial management, payment posting, and provider credentialing. They work with various billing software and cater to different types of healthcare providers.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "CollaborateMD",
+      "Medisoft",
+      "Medical Manager",
+      "Docutap-Experity",
+      "eClinicalWorks",
+      "NextGen",
+      "Advanced MD",
+      "Kareo",
+      "Gorev",
+      "Elligence"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042089"
+  },
+  {
+    "company_name": "HMS USA LLC",
+    "products": [
+      "Chiropractic Billing Services",
+      "Revenue Cycle Management",
+      "Practice Insurance Credentialing",
+      "Front Office Management",
+      "Claim Submission & Scrubbing",
+      "Denial Resolution",
+      "Payment Posting"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "(212) 363-0114"
+    ],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "HMS USA LLC provides specialized chiropractic billing services aimed at maximizing reimbursements and reducing errors. They offer comprehensive revenue cycle management, including insurance credentialing, front office support, claim scrubbing, denial resolution, and payment posting, leveraging expertise in chiropractic CPT coding and documentation.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042108"
+  },
+  {
+    "company_name": "zHealthEHR",
+    "products": [
+      "zHealthEHR Practice Management Software"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "zHealthEHR provides a cloud-based, all-in-one practice management software designed for wellness practices, especially chiropractors. Key features include EHR, scheduling, automated reminders, patient check-in options, customizable SOAP notes with dictation, integrated billing, and reporting.",
+    "pricing_model": "unknown",
+    "target_customer_size": "small",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042120"
+  },
+  {
+    "company_name": "PracticeHub Limited",
+    "products": [
+      "PracticeHub"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "PracticeHub is described as an all-in-one clinic platform specifically designed for chiropractors. It offers features like scheduling, custom treatment notes, client billing, patient retention tools, automation workflows, paperless records, reporting, and integrations to streamline practice management.",
+    "pricing_model": "subscription",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042142"
+  },
+  {
+    "company_name": "Practice Better",
+    "products": [
+      "Practice Better"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Practice Better is an all-in-one EHR and practice management software designed for private and group health and wellness practices, helping professionals grow their business, automate tasks, and deliver holistic health care.",
+    "pricing_model": "subscription",
+    "target_customer_size": "all",
+    "integration_options": [
+      "That Clean Life"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042154"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042171"
+  },
+  {
+    "company_name": "FreeCHIRO",
+    "products": [
+      "FreeCHIRO Chiropractic Software"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "FreeCHIRO is a Silicon Valley founded Technology Company dedicated to providing the chiropractic community with awesome software and even better support.",
+    "pricing_model": "subscription",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042178"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042181"
+  },
+  {
+    "company_name": "Zocdoc, Inc.",
+    "products": [
+      "Online Appointment Booking Platform",
+      "Zocdoc for Providers"
+    ],
+    "platform_type": "hybrid",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Zocdoc is an online platform allowing patients to find nearby doctors who accept their insurance, read patient reviews, and book appointments instantly online.",
+    "pricing_model": "subscription",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042183"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042185"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042198"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042223"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042225"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042233"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042234"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042243"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042495"
+  },
+  {
+    "company_name": "Headway",
+    "products": [
+      "Software-enabled Therapist Network"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Headway is building a new mental healthcare system that everyone can access. We make it easy for people to find quality in-network mental health care by removing historic barriers faced by mental health providers, payers, and patients.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042499"
+  },
+  {
+    "company_name": "Kareo",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Kareo.com is a company that offers innovative software solutions for healthcare providers to efficiently manage their practices, streamline billing processes, and enhance patient care.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042507"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Unable to access the content from the provided URL because it is subscriber-only.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042509"
+  },
+  {
+    "company_name": "Modern Fertility",
+    "products": [
+      "At-home fertility tests"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "A women\u2019s health company making personalized reproductive health information and laboratory tests, previously confined to fertility clinics, more accessible for women at home.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042511"
+  },
+  {
+    "company_name": "ChiroTouch",
+    "products": [
+      "Practice Management Software",
+      "CT Engage",
+      "CT InForms",
+      "CT Payments",
+      "CT RevAccel",
+      "CT ProClear",
+      "CT MaxClear",
+      "CT Verify"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "800.852.1771",
+      "844.307.4901"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ChiroTouch provides practice management software and related services including patient engagement, intake forms, payment processing, billing services, and claims integration, tailored for the chiropractic profession. They partner with various experts and organizations in the chiropractic field.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [
+      "Trizetto",
+      "Change Healthcare"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042520"
+  },
+  {
+    "company_name": "Notable Labs",
+    "products": [
+      "Personalized drug discovery platform"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Notable Labs is building a personalized drug discovery platform to identify treatment options for relapsed and refractory cancer patients \u2014 starting with blood cancer. They test combinations of FDA approved drugs on a person's actual cancer cells using a highly automated lab run on custom software.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042533"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042545"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042551"
+  },
+  {
+    "company_name": "Align Chiropractic Practice Management System",
+    "products": [
+      "Align Chiropractic Practice Management Software",
+      "Revenue Cycle Management System"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Align Chiropractic Practice Management System is an ONC-ATCB Certified, 100% cloud-based software offering integrated practice management and revenue cycle management for chiropractic clinics. It features tools for documentation (like 15-second SOAP notes), billing, scheduling, patient communication, and reporting, supporting multiple specialties and locations.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042553"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042562"
+  },
+  {
+    "company_name": "NextGen Healthcare",
+    "products": [
+      "NextGen Enterprise",
+      "NextGen Office",
+      "AI & NextGen Mobile (EHR)",
+      "NextGen Ambient Assist",
+      "NextGen Mobile (EHR)",
+      "AI Rules Engine",
+      "Billing",
+      "Clearinghouse and EDI",
+      "Coding and Operations",
+      "Collections and AR Management",
+      "Registration and Scheduling",
+      "Patient Access",
+      "Patient Intake",
+      "Patient Visit",
+      "Patient Care Coordination",
+      "Patient Health Management",
+      "NextGen\u00ae Closed Loop\u2122 Patient & Practice Experience",
+      "Intelligent Documentation",
+      "Virtual Visits",
+      "Revenue Cycle Management",
+      "Financial and Operational Analytics",
+      "Regulatory Reporting",
+      "Population Health",
+      "Mirth\u00ae Data Platform",
+      "Mirth\u00ae Connect Integration Engine",
+      "Mirth\u00ae Fully Managed",
+      "Mirth\u00ae Health Data Hub",
+      "API Vendor Program",
+      "Interfaces",
+      "API Marketplace",
+      "NextGen\u00ae Share"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "NextGen Healthcare provides cloud-based EHR, Practice Management, Revenue Cycle Management, Interoperability (Mirth), and other healthcare IT solutions primarily for ambulatory and specialty practices, leveraging AI and automation to improve outcomes and efficiency.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Mirth Connect",
+      "HL7",
+      "API Vendor Program",
+      "API Marketplace",
+      "NextGen Share",
+      "Interfaces",
+      "EDI"
+    ],
+    "deployment_options": [
+      "cloud",
+      "Managed Cloud Hosting"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042569"
+  },
+  {
+    "company_name": "ChiroTouch",
+    "products": [
+      "CT MaxClear",
+      "ChiroTouch Practice Management Software",
+      "CT Engage",
+      "CT InForms",
+      "CT Payments",
+      "CT RevAccel",
+      "CT ProClear",
+      "CT Verify"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "800.852.1771",
+      "844.307.4901"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ChiroTouch offers cloud-based chiropractic practice management software. CT MaxClear is an add-on product for ChiroTouch Advanced customers, providing integrated claims processing and clearinghouse services through Change Healthcare. It aims to automate billing workflows, track claims, post payments efficiently, and reduce claim rework.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Change Healthcare"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042581"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042587"
+  },
+  {
+    "company_name": "NextGen Healthcare",
+    "products": [
+      "NextGen Enterprise Practice Management",
+      "NextGen Office Practice Management",
+      "AI Rules Engine",
+      "Billing",
+      "Clearinghouse and EDI",
+      "Coding and Operations",
+      "Collections and AR Management",
+      "Registration and Scheduling",
+      "NextGen Mobile",
+      "NextGen Ambient Assist",
+      "Mirth Connect"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "NextGen Healthcare provides integrated Practice Management (PM) solutions designed to optimize financial performance, operations, and efficiency for medical practices. Their offerings, including versions for larger (NextGen Enterprise) and smaller (NextGen Office) practices, feature tools like an AI Rules Engine for claims, billing management, clearinghouse/EDI connectivity, coding support, collections/AR management, and scheduling. The goal is to increase collections, reduce days in A/R, ensure billing accuracy, and streamline workflows.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "EHR Integration",
+      "Clearinghouse/EDI",
+      "Mirth Connect",
+      "HL7",
+      "API",
+      "NextGen Share"
+    ],
+    "deployment_options": [
+      "Cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.042835"
+  },
+  {
+    "company_name": "EZBIS, Inc.",
+    "products": [
+      "EZBIS Office",
+      "EZBIS Basic",
+      "EZBIS Electronic Health Records",
+      "EZBIS Modules",
+      "EZBIS Cloud-based Option",
+      "EZBIS Waiting Room App",
+      "EZBIS Schedule App"
+    ],
+    "platform_type": "hybrid",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "EZBIS provides chiropractic-specific practice management and electronic health records (EHR) software solutions. Key features include patient accounting and billing, EHR, appointment scheduling with automated reminders, online scheduling, insurance auto-posting, credit card processing, inventory control, patient portal, and a patient self-check-in app. The company emphasizes its modular design, customer support, and experience serving chiropractors since 1980.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [
+      "Credit Card Processing",
+      "Clearinghouses"
+    ],
+    "deployment_options": [
+      "cloud",
+      "on-premise"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043106"
+  },
+  {
+    "company_name": "Noridian Healthcare Solutions, LLC",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "855-609-9960"
+    ],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Informational webpage provided by Noridian Healthcare Solutions, a Medicare Administrative Contractor (MAC) for Jurisdiction E Part B. The page details Medicare coverage, billing guidelines, documentation requirements, excluded services, and resources specifically for chiropractic providers.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043115"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Could not retrieve content from the page due to a server error (Mod_Security block).",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043118"
+  },
+  {
+    "company_name": "Zingit",
+    "products": [
+      "Zingit Inbox",
+      "Z-Forms",
+      "Online Scheduling",
+      "Web Chat",
+      "Appointment Reminders",
+      "Broadcast Messenger",
+      "Recall & Reactivation",
+      "Reputation Management"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Zingit offers chiropractic software designed for practice growth by automating patient communication and administrative tasks. It aims to improve front desk efficiency, attract new patients, and enhance patient engagement through tools like automated reminders, 2-way texting, online scheduling, web chat, reputation management, and EHR integrations.",
+    "pricing_model": "unknown",
+    "target_customer_size": "small",
+    "integration_options": [
+      "EHRs"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043131"
+  },
+  {
+    "company_name": "Atlas ChiroSys",
+    "products": [
+      "All-in-one Chiropractor Software",
+      "Chiropractic CRM Software",
+      "Chiropractic Automated Rescheduling",
+      "Chiropractic Appointment Text Reminders",
+      "Chiropractic Automated Patient Reminders",
+      "Chiropractic Billing Software",
+      "Chiropractic Care Plan",
+      "Chiropractic Clinic Appointment Check-in",
+      "Chiropractic Clinic Appointment Management",
+      "Chiropractic Clinic Inventory Management",
+      "Chiropractic Clinic Management System",
+      "Chiropractic Clinic Patient Check-in Kiosk System",
+      "Chiropractic Clinic Staff Management"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Atlas ChiroSys provides an all-in-one chiropractor software meticulously custom built for chiropractors. It handles various aspects of a chiropractic business, including scheduling, patient notes, check-in systems, billing, automated reminders (text, patient), rescheduling, CRM, and clinic management.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043147"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043161"
+  },
+  {
+    "company_name": "ACOM Health",
+    "products": [
+      "RAPID Chiropractic Software & Billing Service",
+      "RAPID EHR and Practice Management Software"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ACOM Health provides chiropractic specific Insurance Billings and Collections with free RAPID EHR and Practice Management Software. The Billing and Collections services manages all Insurance type claims, follow-up, and postings.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043168"
+  },
+  {
+    "company_name": "NMCI Medical Clinic",
+    "products": [
+      "Chiropractic Services",
+      "Manual Adjustments",
+      "X-rays",
+      "Pain Management"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "NMCI Medical Clinic provides chiropractic care, defined as 'to be done by hand'. Chiropractors specialize in manual adjustments to the skeletal system, mainly the spine, to restore normal function and offer non-intrusive pain management. The process involves consultation, X-rays to assess the area and safety, followed by a series of adjustments using moderate pressure to realign the skeletal system, reduce pain, and improve comfort and mobility.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043171"
+  },
+  {
+    "company_name": "Gibson Chiropractic",
+    "products": [
+      "Car Accident Injuries",
+      "Chiropractic Care",
+      "Chiropractic Care For Kids",
+      "Prenatal Chiropractic Care",
+      "Laser Therapy",
+      "Pain Management",
+      "Personal Injury Care",
+      "Vertebral Distraction Pump",
+      "Wellness Care",
+      "Sports Taping",
+      "Spinal Testing"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [
+      {
+        "name": "Dr. Chris S. Gibson",
+        "title": "Doctor",
+        "email": "",
+        "phone": ""
+      }
+    ],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Gibson Chiropractic, led by Dr. Chris S. Gibson, offers a comprehensive range of chiropractic care services in Sacramento, CA, and surrounding areas. They focus on treating various conditions (back pain, headaches, injuries, etc.) and promoting wellness through personalized, patient-oriented care and advanced techniques.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043174"
+  },
+  {
+    "company_name": "Better Health Chiropractic",
+    "products": [
+      "Chiropractic Care",
+      "Chiropractic Care For Kids",
+      "Dynamic Flex Casting",
+      "Neurological Intensive Program",
+      "Pregnancy Chiropractic Care",
+      "Tongue, Lip & Cheek Ties Treatment",
+      "Functional Health Services",
+      "Knee Pain Relief",
+      "Neuropathy Treatment & Management",
+      "Nerve Healing",
+      "Brain Health/Concussion Care",
+      "Balance Improvement",
+      "Sports Chiropractic"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [
+      {
+        "name": "Dr. Scott Beavers",
+        "title": "DC, DACBSP",
+        "email": "",
+        "phone": ""
+      },
+      {
+        "name": "Dr. Marianne Abate",
+        "title": "DC, CACCP",
+        "email": "",
+        "phone": ""
+      }
+    ],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Better Health Chiropractic is a clinic located in Rocklin, CA, established in 1993, providing chiropractic care for families. They focus on integrating functional neurology, neuro-nutrition, and sports science, treating conditions from pediatric issues (tongue ties, developmental delays) to adult concerns (neuropathy, nerve damage, balance problems, concussions, knee pain) using a personalized, brain-based approach.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043183"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043190"
+  },
+  {
+    "company_name": "Livingston Chiropractic Clinic",
+    "products": [
+      "Chiropractic Care",
+      "Massage Therapy",
+      "Deep Tissue Massage",
+      "Hot Stone Massage",
+      "Prenatal Massage",
+      "Relaxation Massage",
+      "Sports Massage",
+      "Swedish Massage",
+      "Thai Massage",
+      "Cryotherapy",
+      "Ice Pack Cryotherapy",
+      "Whole Body Cryotherapy",
+      "Electrical Stimulation Therapies",
+      "Electrical Muscle Stimulation",
+      "Interferential Current Therapy",
+      "Microcurrent Therapy",
+      "Adjustments and Manipulation",
+      "DOT/DMV Physicals",
+      "Drug and Alcohol Testing",
+      "Therapeutic Exercise",
+      "Therapeutic Ultrasound",
+      "Auto Injury Treatment",
+      "Personal Injury Treatment",
+      "Sports Injury Treatment",
+      "Treatment of Common Chiropractic Conditions"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Livingston Chiropractic Clinic provides chiropractic care and related therapeutic services in Livingston, CA. They offer personalized treatment plans tailored to individual needs for conditions like pain, auto injuries, and sports injuries, utilizing adjustments, various massage types, cryotherapy, electrical stimulation, and therapeutic exercises. They also conduct DOT/DMV physicals and drug/alcohol testing.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043200"
+  },
+  {
+    "company_name": "Body Revive Chiropractic",
+    "products": [
+      "Chiropractic Services",
+      "Healthcare Provider Network"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "702-533-3933",
+      "805-497-4610",
+      "310-266-5257",
+      "626-578-0618",
+      "4246665221",
+      "562.596.9677",
+      "818-992-5252",
+      "818-734-0022",
+      "213-379-0997",
+      "818-442-1541",
+      "714-655-7424",
+      "909-874-6640",
+      "877-415-1330",
+      "562.795.6630",
+      "818-402-3198",
+      "909-280-0000",
+      "818-237-0894",
+      "909-967-4935"
+    ],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "We connect attorneys with our experienced personal injury chiropractors and other professional healthcare providers across Southern California",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043209"
+  },
+  {
+    "company_name": "Sutter Health",
+    "products": [
+      "Healthcare Services",
+      "Chiropractor Network",
+      "My Health Online Patient Portal",
+      "Virtual Care",
+      "Walk-In Care",
+      "Urgent Care",
+      "Find a Doctor Service"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Sutter Health is a healthcare network operating in Northern California. It provides access to a network of doctors and clinicians, including chiropractors, across various locations. They offer services like finding doctors, booking appointments, virtual care, urgent care, and a patient portal called My Health Online for managing appointments, messaging doctors, and viewing test results.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043224"
+  },
+  {
+    "company_name": "Movement Chiropractic and Wellness",
+    "products": [
+      "Chiropractic",
+      "Soft-tissue management",
+      "Functional rehabilitation",
+      "Adjustment",
+      "Titleist Performance Institute",
+      "Rock Tape Certified",
+      "Online posture assesment",
+      "RockBlades",
+      "Active Release Techniques",
+      "Functional Movement Screen"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [
+      {
+        "name": "Dr. Griffith",
+        "title": "Doctor / Chiropractor",
+        "email": "",
+        "phone": ""
+      }
+    ],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Movement Chiropractic and Wellness provides chiropractic care, soft-tissue management, and functional rehabilitation services. They utilize various techniques like Adjustments, Rock Tape, RockBlades, Active Release Techniques, and Functional Movement Screens to help patients improve.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043259"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043273"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043277"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043279"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043287"
+  },
+  {
+    "company_name": "MPN Software Systems, Inc.",
+    "products": [
+      "ECLIPSE EHR Cloud",
+      "ECLIPSE"
+    ],
+    "platform_type": "hybrid",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "ECLIPSE offers Chiropractic EHR, Billing, and Practice Management software. It comes in two versions: ECLIPSE EHR Cloud, a web-based subscription accessible via any browser, and ECLIPSE, a desktop software for Windows PCs and networks (standalone or Client/Server). The software serves Chiropractic, Physical Therapy, and Medical facilities, scaling from single practitioners to large multi-site practices, handling documentation, scheduling, billing, and patient communication.",
+    "pricing_model": "hybrid",
+    "target_customer_size": "all",
+    "integration_options": [
+      "backup",
+      "CC processing",
+      "sign-in",
+      "API"
+    ],
+    "deployment_options": [
+      "cloud",
+      "on-premise"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043296"
+  },
+  {
+    "company_name": "zHealthEHR",
+    "products": [
+      "zHealthEHR Chiropractic Software",
+      "zHealthEHR Practice Management Software",
+      "zHealth Review Plus",
+      "Managed Billing Services"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "zHealthEHR offers web-based practice management and EHR software for health & wellness practices, including chiropractors. Features include online scheduling, automated reminders, digital patient intake (tablet/online forms), SOAP notes with voice-to-text, integrated electronic billing, patient recall automation, and review management (Review Plus). Managed billing services are also offered.",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [
+      "Integrated Billing",
+      "Voice to Text"
+    ],
+    "deployment_options": [
+      "Cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043308"
+  },
+  {
+    "company_name": "ChiroHD",
+    "products": [
+      "ChiroHD EHR",
+      "Patient App",
+      "Scheduling",
+      "Charting",
+      "Insurance Add-On",
+      "Engagement Add-On",
+      "Marketing Add-On"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ChiroHD provides a cloud-based Electronic Health Record (EHR) and practice management software specifically designed for chiropractic clinics. It aims to simplify clinic operations, including scheduling, charting, patient engagement via a dedicated app, and reporting, running entirely within a web browser.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Merchant Systems"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043321"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043339"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043341"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043343"
+  },
+  {
+    "company_name": "CareCloud",
+    "products": [
+      "CareCloud All in One",
+      "Revenue Cycle Management",
+      "Electronic Health Records",
+      "Practice Management",
+      "Patient Experience Management",
+      "Telehealth",
+      "Medical Billing Services",
+      "Medical Coding",
+      "FrontDesk Assist",
+      "Physician Credentialing",
+      "Remote Patient Monitoring",
+      "Staff Augmentation",
+      "Chronic Care Management",
+      "Robotic Process Automation",
+      "Interoperability",
+      "Group Purchasing Organization",
+      "cirrusAI"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "877-342-7517"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "CareCloud provides cloud-based healthcare solutions including medical billing services, EHR, practice management, and revenue cycle management, aimed at enhancing financial performance, patient care, and operational efficiency for medical practices. Their California-focused medical billing services emphasize claim optimization, denial reduction, and reimbursement maximization.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "EHR",
+      "Practice Management Solutions",
+      "Clearinghouse"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043366"
+  },
+  {
+    "company_name": "",
+    "products": [],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "",
+    "pricing_model": "unknown",
+    "target_customer_size": "unknown",
+    "integration_options": [],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043373"
+  },
+  {
+    "company_name": "Chiropractic Medical Billing Services",
+    "products": [
+      "Outsourced medical billing for chiropractors",
+      "Collection service for chiropractors",
+      "Chiropractic direct claim processing",
+      "Electronic health records (EHR) software",
+      "Chiropractic billing software"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Offers outsourced medical billing services tailored for chiropractic practices, specifically targeting the San Francisco, CA area. The service aims to increase collections (citing an average increase from 61% to 72% of total billings), handle data entry, claim submissions, follow-ups on delinquent accounts and rejected claims, allowing practices to focus on patient care. They state that services can be tailored to the size and budget of the practice.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Electronic health records (EHR) software"
+    ],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043375"
+  },
+  {
+    "company_name": "Innovation Billing Service, Inc.",
+    "products": [
+      "Medical Billing",
+      "Medical Coding",
+      "Contracting Services",
+      "Practice Management",
+      "Software Consulting",
+      "Financial Consulting",
+      "AdvancedMD Training",
+      "AdvancedMD Troubleshooting"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [
+      {
+        "name": "Marnie Cabezas",
+        "title": "CEO",
+        "email": "",
+        "phone": ""
+      }
+    ],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "Formerly Midwife\u2019s Billing Service, Inc., Innovation Billing Service, Inc. is a midwife-owned company specializing in medical billing, coding, contracting, practice management, and consulting services. It focuses on serving midwives, birth centers, women and family medicine providers, and independent practitioners. The company utilizes the AdvancedMD platform and offers related training and support.",
+    "pricing_model": "unknown",
+    "target_customer_size": "small",
+    "integration_options": [
+      "AdvancedMD"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043397"
+  },
+  {
+    "company_name": "Chiro8000",
+    "products": [
+      "Simplified Billing",
+      "Practice Management",
+      "Complete EHR"
+    ],
+    "platform_type": "desktop",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "800.456.2622",
+      "916.673.4850"
+    ],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Chiro8000 provides chiropractic software solutions including simplified billing, practice management, and certified EHR. Their products aim to connect billing, scheduling, practice management, marketing, EMR/EHR, communication, patient education, and collections to enhance practice efficiency and growth. They emphasize simplicity and value for chiropractic practices.",
+    "pricing_model": "one-time",
+    "target_customer_size": "small",
+    "integration_options": [],
+    "deployment_options": [
+      "on-premise"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043403"
+  },
+  {
+    "company_name": "ACOM HEALTH",
+    "products": [
+      "RAPID - Chiropractic EHR and Practice Management Software"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ACOM Health\u2019s RAPID is a web-based chiropractic EHR and practice management software designed to increase productivity and efficiency. It offers features like automated EHR workflow, intuitive charting, customizable templates, automated billing codes, and intelligent alerts for medical necessity and patient progress.",
+    "pricing_model": "subscription",
+    "target_customer_size": "unknown",
+    "integration_options": [
+      "ICD9",
+      "ICD10",
+      "LOINC",
+      "SNOMED CT",
+      "NDC",
+      "RxNorm",
+      "RadLex",
+      "CPT",
+      "HCPCS",
+      "MEDCIN"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043405"
+  },
+  {
+    "company_name": "ChiroTouch",
+    "products": [
+      "ChiroTouch Cloud",
+      "Practice Management Software",
+      "CT Engage",
+      "CT InForms",
+      "CT Payments",
+      "CT RevAccel",
+      "CT ProClear",
+      "CT MaxClear",
+      "CT Verify"
+    ],
+    "platform_type": "web-based",
+    "c_suite_people": [],
+    "company_phone_numbers": [
+      "800.852.1771",
+      "844.307.4901"
+    ],
+    "is_web_based": true,
+    "location": "San Francisco",
+    "summary": "ChiroTouch offers EHR and practice management software specifically designed for chiropractic practices. Their solutions aim to streamline workflows, enhance patient experience, and support growth through scalable, cloud-based tools and automation features. They provide various modules for scheduling, charting, billing, patient engagement, intake forms, payment processing, billing services, and claims integration.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "Trizetto",
+      "Change Healthcare"
+    ],
+    "deployment_options": [
+      "cloud"
+    ],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043408"
+  },
+  {
+    "company_name": "Agile Occupational Medicine",
+    "products": [
+      "Chiropractic",
+      "Physical Therapy",
+      "Employee Screening",
+      "Employment Physicals",
+      "DOT Physicals",
+      "DOT Fleet Physicals",
+      "Drug Screening",
+      "FormFox Screening Service",
+      "eScreen Screening Service",
+      "Injury First Aid",
+      "Urgent Care",
+      "HazMat Testing",
+      "Acupuncture",
+      "Clinical Psychology",
+      "Telemedicine Consultations",
+      "Workers Compensation",
+      "Flu Shots"
+    ],
+    "platform_type": "unknown",
+    "c_suite_people": [],
+    "company_phone_numbers": [],
+    "is_web_based": false,
+    "location": "San Francisco",
+    "summary": "Agile Occupational Medicine offers a range of occupational health services, specializing in chiropractic care, physical therapy, employee screenings, injury treatment, and workers' compensation programs. They emphasize non-invasive treatments and customized return-to-work, prevention, and industry-specific solutions for employers.",
+    "pricing_model": "unknown",
+    "target_customer_size": "all",
+    "integration_options": [
+      "FormFox Screening Service",
+      "eScreen Screening Service"
+    ],
+    "deployment_options": [],
+    "industry": "chiropractic",
+    "added_date": "2025-04-24T16:48:16.043412"
+  }
+]

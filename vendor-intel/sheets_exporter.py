@@ -8,6 +8,7 @@ from datetime import datetime
 INDUSTRIES = ["chiropractic", "optometry", "auto-repair"]
 
 def setup_google_sheets():
+    """Set up Google Sheets client with proper credentials"""
     # Use creds to create a client to interact with the Google Drive API
     scope = ['https://spreadsheets.google.com/feeds',
              'https://www.googleapis.com/auth/drive']
@@ -15,20 +16,27 @@ def setup_google_sheets():
     # Path to your service account credentials file
     creds = ServiceAccountCredentials.from_json_keyfile_name(
         os.getenv('GOOGLE_CREDENTIALS_FILE'), scope)
+    
+    # Create client
     client = gspread.authorize(creds)
-    return client
+    
+    # Share with user email
+    user_email = "indraneel@thinksmartinc.com"
+    print(f"Setting up access for: {user_email}")
+    
+    return client, user_email
 
 def create_worksheet(spreadsheet, title, headers):
     """Create a new worksheet with headers"""
     try:
-        worksheet = spreadsheet.add_worksheet(title=title, rows=1000, cols=20)
+        worksheet = spreadsheet.add_worksheet(title=title, rows=1000, cols=len(headers))
     except gspread.exceptions.APIError:
         # If worksheet already exists, get it
         worksheet = spreadsheet.worksheet(title)
         worksheet.clear()
     
     # Format headers
-    worksheet.update('A1:L1', [headers])
+    worksheet.update('A1', [headers])
     worksheet.format('A1:L1', {
         'backgroundColor': {'red': 0.2, 'green': 0.2, 'blue': 0.2},
         'textFormat': {'bold': True, 'foregroundColor': {'red': 1, 'green': 1, 'blue': 1}},
@@ -41,8 +49,9 @@ def create_worksheet(spreadsheet, title, headers):
     return worksheet
 
 def export_to_sheets(results, spreadsheet_name=None):
+    """Export results to Google Sheets"""
     try:
-        client = setup_google_sheets()
+        client, user_email = setup_google_sheets()
         
         # Create spreadsheet name with timestamp if not provided
         if not spreadsheet_name:
@@ -54,6 +63,8 @@ def export_to_sheets(results, spreadsheet_name=None):
             spreadsheet = client.open(spreadsheet_name)
         except gspread.exceptions.SpreadsheetNotFound:
             spreadsheet = client.create(spreadsheet_name)
+            # Share the spreadsheet with the user
+            spreadsheet.share(user_email, perm_type='user', role='writer')
         
         # Define headers for each industry
         headers = [
@@ -61,9 +72,6 @@ def export_to_sheets(results, spreadsheet_name=None):
             "C-Suite Title", "C-Suite Email", "C-Suite Phone", "Company Phone",
             "Web-Based", "Location", "Website", "Last Updated"
         ]
-        
-        # Create summary worksheet
-        summary_ws = create_worksheet(spreadsheet, "Summary", headers)
         
         # Group results by industry
         industry_results = {industry: [] for industry in INDUSTRIES}
@@ -101,47 +109,34 @@ def export_to_sheets(results, spreadsheet_name=None):
                     rows.append(row)
             
             if rows:
+                # Update data
                 ws.update(f'A2:L{len(rows)+1}', rows)
-                
-                # Add summary row to summary worksheet
-                summary_row = [
-                    f"{industry.title()} Summary",
-                    f"{len(industry_data)} companies",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                ]
-                summary_ws.append_row(summary_row)
         
         # Format all worksheets
         for ws in spreadsheet.worksheets():
-            # Auto-resize columns
-            ws.columns_auto_resize(0, len(headers))
-            
-            # Add alternating row colors
-            ws.format(f'A2:L{ws.row_count}', {
-                'backgroundColor': {
-                    'red': 0.1, 'green': 0.1, 'blue': 0.1
-                }
-            })
-            
-            # Format even rows
-            ws.format(f'A2:L{ws.row_count}:even', {
-                'backgroundColor': {
-                    'red': 0.15, 'green': 0.15, 'blue': 0.15
-                }
-            })
+            try:
+                # Auto-resize columns
+                for i in range(len(headers)):
+                    ws.columns_auto_resize(i, i+1)
+                
+                # Format data rows with alternating colors
+                if ws.row_count > 1:
+                    ws.format(f'A2:L{ws.row_count}', {
+                        'backgroundColor': {'red': 0.1, 'green': 0.1, 'blue': 0.1}
+                    })
+                    
+                    # Format even rows with slightly different color
+                    even_rows = [i for i in range(2, ws.row_count + 1) if i % 2 == 0]
+                    for row in even_rows:
+                        ws.format(f'A{row}:L{row}', {
+                            'backgroundColor': {'red': 0.15, 'green': 0.15, 'blue': 0.15}
+                        })
+            except Exception as format_error:
+                print(f"Warning: Some formatting failed but data was exported: {format_error}")
         
         print(f"✅ Data exported to Google Sheets: {spreadsheet.url}")
         return spreadsheet.url
         
     except Exception as e:
         print(f"Error exporting to Google Sheets: {e}")
-        return None 
+        return None
