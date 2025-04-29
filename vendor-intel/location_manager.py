@@ -1,122 +1,118 @@
-import pandas as pd
-import numpy as np
-from typing import List, Dict, Generator, Optional
+import json
 import os
+import threading
+import logging
+from typing import List, Dict, Set, Optional
+from dataclasses import dataclass, field
+
+# --- Setup Logging ---
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger("location_manager")
+
+@dataclass
+class Location:
+    city: str
+    state: str
+    zip_code: str
+
+    def __str__(self) -> str:
+        return f"{self.city}, {self.state} {self.zip_code}"
+
+    def __hash__(self) -> int:
+        return hash((self.city, self.state))
+
+    def __eq__(self, other) -> bool:
+        if not isinstance(other, Location):
+            return False
+        return self.city == other.city and self.state == other.state
 
 class LocationManager:
-    def __init__(self, batch_size: int = 100):
+    def __init__(self, batch_size: int = 10):
         self.batch_size = batch_size
-        self.zip_codes = self._load_zip_codes()
-        self.processed_locations = self._load_processed_locations()
-        
-    def _load_zip_codes(self) -> pd.DataFrame:
-        """Load and process US zip codes data"""
-        # Read CSV with proper data types and encoding
-        df = pd.read_csv('uszips.csv', dtype={
-            'zip': str,
-            'city': str,
-            'state_id': str,
-            'state_name': str,
-            'county_name': str,
-            'timezone': str
-        }, encoding='utf-8')
-        
-        # Clean and prepare data
-        df['zip'] = df['zip'].str.zfill(5)  # Ensure 5-digit format
-        df['city'] = df['city'].str.title()  # Proper case for cities
-        df['location'] = df.apply(lambda x: f"{x['city']}, {x['state_id']}", axis=1)
-        
-        # Remove any invalid zip codes
-        df = df[df['zip'].str.match(r'^\d{5}$')]
-        
-        return df
-    
-    def _load_processed_locations(self) -> set:
-        """Load already processed locations from a file"""
-        if os.path.exists('processed_locations.txt'):
-            with open('processed_locations.txt', 'r') as f:
-                return set(line.strip() for line in f)
+        self.locations: List[Location] = []
+        self.location_data: Dict[str, Dict[str, List[str]]] = {}
+        self.processed_locations: Set[str] = set()
+        self.lock = threading.Lock()
+        self._load_locations()
+
+    def _load_locations(self):
+        """Load locations from state_city_zip.json file"""
+        possible_paths = [
+            'state_city_zip.json',  # Current directory
+            os.path.join('vendor-intel', 'state_city_zip.json'),  # vendor-intel subdirectory
+        ]
+
+        json_path = None
+        for path in possible_paths:
+            if os.path.exists(path):
+                json_path = path
+                break
+
+        if not json_path:
+            logger.error(f"❌ state_city_zip.json not found in: {', '.join(possible_paths)}")
+            raise FileNotFoundError(f"state_city_zip.json not found")
+
+        logger.info(f"📂 Loading locations from: {json_path}")
+        with open(json_path, 'r') as f:
+            self.location_data = json.load(f)
+
+        # Build Location objects - only one per city/state combination
+        seen_locations = set()
+        for state, cities in self.location_data.items():
+            for city, zip_codes in cities.items():
+                # Use the first ZIP code for the city
+                if zip_codes:
+                    location = Location(city=city, state=state, zip_code=zip_codes[0])
+                    if location not in seen_locations:
+                        self.locations.append(location)
+                        seen_locations.add(location)
+
+        logger.info(f"✅ Loaded {len(self.locations)} unique city/state combinations")
+        logger.info(f"📊 States available: {len(self.get_states())}")
+
+    def get_states(self) -> Set[str]:
+        """Get all states"""
+        return set(self.location_data.keys())
+
+    def get_cities(self, state: Optional[str] = None) -> Set[str]:
+        """Get cities in a given state"""
+        if state and state in self.location_data:
+            return set(self.location_data[state].keys())
         return set()
-    
-    def save_processed_location(self, location: str):
-        """Save a processed location to track progress"""
-        self.processed_locations.add(location)
-        with open('processed_locations.txt', 'a') as f:
-            f.write(f"{location}\n")
-    
-    def get_location_batches(self, state: Optional[str] = None, city: Optional[str] = None, zipcode: Optional[str] = None) -> Generator[List[Dict], None, None]:
-        """Generate batches of locations to process with optional filters"""
-        # Start with all locations
-        remaining_locations = self.zip_codes
-        
-        # Apply filters if provided
-        if state:
-            remaining_locations = remaining_locations[remaining_locations['state_id'] == state.upper()]
-        if city:
-            remaining_locations = remaining_locations[remaining_locations['city'].str.lower() == city.lower()]
-        if zipcode:
-            remaining_locations = remaining_locations[remaining_locations['zip'] == zipcode]
-        
-        # Filter out already processed locations
-        remaining_locations = remaining_locations[~remaining_locations['location'].isin(self.processed_locations)]
-        
-        # Shuffle to distribute load
-        remaining_locations = remaining_locations.sample(frac=1)
-        
-        # Create batches
-        for i in range(0, len(remaining_locations), self.batch_size):
-            batch = remaining_locations.iloc[i:i + self.batch_size]
-            yield batch[['location', 'zip', 'state_id', 'city']].to_dict('records')
-    
-    def get_states(self) -> List[str]:
-        """Get list of unique states"""
-        return sorted(self.zip_codes['state_id'].unique().tolist())
-    
-    def get_cities(self, state: Optional[str] = None) -> List[str]:
-        """Get list of unique cities, optionally filtered by state"""
-        if state:
-            return sorted(self.zip_codes[self.zip_codes['state_id'] == state.upper()]['city'].unique().tolist())
-        return sorted(self.zip_codes['city'].unique().tolist())
-    
-    def get_zipcodes(self, state: Optional[str] = None, city: Optional[str] = None) -> List[str]:
-        """Get list of unique zipcodes, optionally filtered by state and/or city"""
-        df = self.zip_codes
-        
-        # Apply filters
-        if state:
-            df = df[df['state_id'] == state.upper()]
-        if city:
-            # Case-insensitive city match
-            df = df[df['city'].str.lower() == city.lower()]
-            
-        # Get unique zip codes and ensure 5-digit format
-        zipcodes = df['zip'].astype(str).apply(lambda x: x.zfill(5)).unique().tolist()
-        
-        # Sort numerically but keep as strings
-        return sorted(zipcodes, key=lambda x: int(x))
-    
-    def get_total_locations(self, state: Optional[str] = None, city: Optional[str] = None, zipcode: Optional[str] = None) -> int:
-        """Get total number of locations to process with optional filters"""
-        df = self.zip_codes
-        if state:
-            df = df[df['state_id'] == state.upper()]
-        if city:
-            df = df[df['city'].str.lower() == city.lower()]
-        if zipcode:
-            df = df[df['zip'] == zipcode]
-        return len(df)
-    
-    def get_remaining_locations(self, state: Optional[str] = None, city: Optional[str] = None, zipcode: Optional[str] = None) -> int:
-        """Get number of remaining locations to process with optional filters"""
-        total = self.get_total_locations(state, city, zipcode)
-        processed = len([loc for loc in self.processed_locations 
-                        if (not state or loc.endswith(f", {state.upper()}")) and
-                           (not city or loc.startswith(f"{city.title()}, "))])
-        return total - processed
-    
-    def get_progress(self, state: Optional[str] = None, city: Optional[str] = None, zipcode: Optional[str] = None) -> float:
-        """Get progress as a percentage with optional filters"""
-        total = self.get_total_locations(state, city, zipcode)
-        if total == 0:
-            return 0.0
-        return (total - self.get_remaining_locations(state, city, zipcode)) / total * 100 
+
+    def get_zip_codes(self, state: Optional[str] = None, city: Optional[str] = None) -> List[str]:
+        """Get zipcodes for a city"""
+        if state and city:
+            return self.location_data.get(state, {}).get(city, [])
+        return []
+
+    def get_next_batch(self, state_filter: Optional[str] = None, city_filter: Optional[str] = None) -> List[Location]:
+        """Get next batch of unprocessed locations"""
+        with self.lock:
+            filtered = [
+                loc for loc in self.locations
+                if (not state_filter or loc.state == state_filter)
+                and (not city_filter or loc.city == city_filter)
+                and str(loc) not in self.processed_locations
+            ]
+            batch = filtered[:self.batch_size]
+            logger.debug(f"📦 Providing batch of {len(batch)} locations (State filter: {state_filter}, City filter: {city_filter})")
+            return batch
+
+    def mark_location_processed(self, location: Location):
+        """Mark a location as processed"""
+        with self.lock:
+            self.processed_locations.add(str(location))
+            logger.debug(f"✅ Marked as processed: {location}")
+
+    def get_filtered_locations(self, state_filter=None, city_filter=None) -> List[Location]:
+        """Get locations filtered by state and city."""
+        filtered = [
+            loc for loc in self.locations
+            if (not state_filter or loc.state == state_filter) and
+               (not city_filter or loc.city == city_filter)
+        ]
+        return filtered
+
+# --- Global instance ---
+location_manager = LocationManager()

@@ -2,6 +2,7 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 import time
+from location_manager import location_manager
 
 # Load environment variables
 load_dotenv()
@@ -21,20 +22,66 @@ try:
 except Exception as e:
     raise ValueError(f"Failed to configure Gemini API: {str(e)}")
 
-def generate_search_queries(domain, location, quantity):
+def get_location_context(city, state):
+    """Get ZIP codes and generate location context for the search"""
+    zip_codes = location_manager.get_zip_codes(state, city)
+    
+    # Get a sample of ZIP codes (max 3) to avoid overloading the query
+    sample_zips = zip_codes[:3] if zip_codes else []
+    
+    # Create location context prompt
+    context = f"""Location Details:
+    - City: {city}
+    - State: {state}
+    - Sample ZIP codes: {', '.join(sample_zips)}
+    
+    Consider:
+    1. Downtown/business districts
+    2. Technology parks/hubs
+    3. Commercial areas
+    4. Local business communities
+    5. Nearby metropolitan areas
+    """
+    return context
+
+def generate_search_queries(domain, location, quantity=5):
     max_retries = 3
     retry_delay = 2  # seconds
     
+    # Parse location into city and state
+    if ',' in location:
+        city, state = [part.strip() for part in location.split(',')]
+    else:
+        city, state = location, None
+    
+    # Get location context
+    location_context = get_location_context(city, state) if state else ""
+    
     for attempt in range(max_retries):
         try:
-            prompt = f"""Generate {quantity} Google search queries to find software vendors in or near {location} that offer billing and management software for the {domain} industry.
-            Return each query on a new line.
-            Make the queries specific and targeted to find relevant vendors.
-            Do not include numbers or prefixes in the queries.
-            Example format:
-            chiropractic practice management software vendors in New York
-            best chiropractic billing software companies near Los Angeles
-            top-rated chiropractic EHR systems in Chicago
+            prompt = f"""Generate {quantity} intelligent Google search queries to find software vendors in or near {location}.
+            Focus on {domain} industry software providers.
+            
+            {location_context}
+            
+            Create diverse queries that include:
+            1. General area searches
+            2. ZIP code specific searches
+            3. Business district searches
+            4. Industry-specific locations
+            5. Local technology hubs
+            
+            Use variations like:
+            - "software vendors"
+            - "technology companies"
+            - "software solutions providers"
+            - "tech firms"
+            - "{domain} software"
+            - "enterprise software"
+            
+            Return only the search queries, one per line.
+            Do not include numbers or prefixes.
+            Make each query unique and specific.
             """
             
             response = model.generate_content(prompt)
@@ -54,13 +101,13 @@ def generate_search_queries(domain, location, quantity):
                 if len(queries) >= quantity:
                     return queries[:quantity]
                 else:
-                    # If we got fewer queries than requested, pad with fallback queries
+                    # If we got fewer queries than requested, generate intelligent fallbacks
                     fallback_queries = [
-                        f"{domain} software vendors in {location}",
-                        f"{domain} practice management software {location}",
-                        f"{domain} billing software companies near {location}",
-                        f"best {domain} EHR systems in {location}",
-                        f"top-rated {domain} software solutions {location}"
+                        f"{domain} software vendors in {city} {state}",
+                        f"enterprise software companies near {location}",
+                        f"technology firms {domain} solutions {city}",
+                        f"{domain} software providers downtown {city}",
+                        f"business software companies {location}"
                     ]
                     return queries + fallback_queries[:quantity - len(queries)]
             else:
@@ -72,11 +119,11 @@ def generate_search_queries(domain, location, quantity):
                 time.sleep(retry_delay)
             else:
                 print(f"All attempts failed. Last error: {str(e)}")
-                # Return fallback queries
+                # Return intelligent fallback queries
                 return [
-                    f"{domain} software vendors in {location}",
-                    f"{domain} practice management software {location}",
-                    f"{domain} billing software companies near {location}",
-                    f"best {domain} EHR systems in {location}",
-                    f"top-rated {domain} software solutions {location}"
+                    f"{domain} software vendors in {city} {state}",
+                    f"enterprise software companies near {location}",
+                    f"technology firms {domain} solutions {city}",
+                    f"{domain} software providers downtown {city}",
+                    f"business software companies {location}"
                 ]
